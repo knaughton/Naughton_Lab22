@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app ="myMod" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet">
+    <title>Lab 22</title>
+  </head>
+  <body ng-controller = "myCtrl">
+
+    <header>
+      <h1>Favorite Lyrics</h1>
+      <h4>best listened to at the beach<h4>
+      <button ng-click="favorite()">Click for lyrics</button>
+    </header>
+
+    <div class="title">
+      <h2>{{lyric.data.songTitle}}</h2>
+    </div>
+
+    <div class="img">
+      <img src="{{lyric.data.img}}">
+    </div>
+
+    <div class="lyric">
+      <p>{{lyric.data.songLyric}}</p>
+    </div>
+
+
+    <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="../routes.js"></script>
+    <script src="../server.js"></script> -->
+  </body>
+</html>

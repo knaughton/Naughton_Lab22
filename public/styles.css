@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #DDD;
+}
+
+header {
+  background-color: #46c5cf;
+  padding-top: 30px;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Delius Unicase', cursive;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  color: white;
+  text-shadow: 0 4px 10px #DDD;
+}
+
+h4 {
+  font-family: 'Overlock', cursive;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #DDD;
+}
+
+button {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1em;
+  font-family: 'Economica', sans-serif;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+div.title {
+  text-align: center;
+  font-family: 'Julee', cursive;
+  margin: 0;
+  padding: 5px;
+  font-size: 60px;
+}
+
+div.img {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+div.lyric {
+  text-align: center;
+  font-family: 'Julee', cursive;
+  margin: 0;
+  padding: 5px;
+  font-size: 40px;
+}
